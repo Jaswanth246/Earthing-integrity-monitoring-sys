@@ -64,8 +64,8 @@ A real-time embedded system to monitor the **safety and integrity of streetlight
 
 ## 📐 System Diagram (Conceptual)
 
-*(Add your schematic image here using GitHub's markdown image syntax)*  
-`![System Diagram](images/system-diagram.png)`
+ ![System Diagram](docs/Schematic.jpg)
+
 
 ---
 
