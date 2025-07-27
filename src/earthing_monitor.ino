@@ -41,7 +41,7 @@ void setup() {
 void sendSMS(const String &message) {
   GSM.println("AT+CMGF=1");        // Set SMS mode to text
   delay(100);
-  GSM.println("AT+CMGS=\"+919600026609\""); // Replace with recipient's phone number
+  GSM.println("AT+CMGS=\"+xxxxxxxxxxxx\""); // Replace xxxxxxxxxxxx with recipient's phone number
   delay(100);
   GSM.print(message);
   delay(100);
